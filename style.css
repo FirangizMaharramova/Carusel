@@ -1,0 +1,37 @@
+body{height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel{
+    width: 80%;
+    height: 60vh;
+    background-color: red;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.img-box{
+    background-color: green;
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+ 
+}
+.left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.img-box img{
+    width: 300px;
+}
